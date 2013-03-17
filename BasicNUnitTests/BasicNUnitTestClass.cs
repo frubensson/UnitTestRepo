@@ -20,12 +20,12 @@ namespace BasicNUnitTests
             Assert.AreEqual(x, y);
         }
 
-        [Test]
-        public void NegativeTest()
-        {
-            if (true)
-                Assert.Fail("Detta är ett misslyckande, noooo!");
-        }
+        //[Test]
+        //public void NegativeTest()
+        //{
+        //    if (true)
+        //        Assert.Fail("Detta är ett misslyckande, noooo!");
+        //}
 
         [Test,ExpectedException(typeof(NotSupportedException))]
         public void ExpectedExeptionTest()
@@ -33,10 +33,10 @@ namespace BasicNUnitTests
             throw new NotSupportedException();
         }
 
-        [Test,Ignore]
-        public void NotImplementedExeption()
-        {
-            throw new NotImplementedException();
-        }
+        //[Test,Ignore]
+        //public void NotImplementedExeption()
+        //{
+        //    throw new NotImplementedException();
+        //}
     }
 }
