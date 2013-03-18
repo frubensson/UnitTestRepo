@@ -10,7 +10,7 @@ namespace BasicNUnitTests
     [TestFixture]
     public class BasicNUnitTestClass
     {
-        //Grundläggnde tester
+        //Grundläggnde tester.
         [Test]
         public void PositiveTest()
         {
